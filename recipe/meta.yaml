@@ -1,13 +1,13 @@
 {% set name = "geograpy3" %}
-{% set version = "0.2.6" %}
+{% set version = "0.2.7" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geograpy3-{{ version }}.tar.gz
-  sha256: 89552642f6c639d66cbc716abe0a4e047974aa2a2d4b09ad121a438738d3ba7c
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/geograpy3-{{ version }}.tar.gz
+  sha256: 9fed9fd8e1cf3757d5d696cdf2670241e61dc03731b4de7c2c053b98b0c5954c
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
