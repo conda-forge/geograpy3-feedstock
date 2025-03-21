@@ -1,11 +1,11 @@
-About geograpy3
-===============
+About geograpy3-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/geograpy3-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/somnathrakshit/geograpy3
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/geograpy3-feedstock/blob/main/LICENSE.txt)
 
 Summary: Extract countries, regions and cities from a URL or text
 
