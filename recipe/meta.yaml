@@ -6,7 +6,6 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geograpy3-{{ version }}.tar.gz
   sha256: 7bbbba7cc249638f96e70e625b0cc1128d93e405653280d7136b3837ba83ffb3
 
 build:
