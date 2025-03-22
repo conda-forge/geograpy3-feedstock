@@ -20,12 +20,14 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
+    - geopy
     - jellyfish
     - newspaper3k
     - nltk
     - numpy
+    - osmpythontools
     - pandas
-    - pylodstorage
+    - pylodstorage >=0.4.7
     - python >={{ python_min }}
     - scikit-learn
     - sphinx_rtd_theme
