@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geograpy3-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/geograpy3-{{ version }}.tar.gz
   sha256: 89552642f6c639d66cbc716abe0a4e047974aa2a2d4b09ad121a438738d3ba7c
 
 build:
@@ -37,6 +37,7 @@ test:
     - pip check
   requires:
     - pip
+    - python >={{ python_min }}
 
 about:
   home: https://github.com/somnathrakshit/geograpy3
