@@ -23,13 +23,13 @@ requirements:
   run:
     - geopy
     - jellyfish
-    - lodentity
-    - newspaper3k
+    - newspaper4k
     - nltk
     - numpy
     - osmpythontools
     - pandas
-    - pylodstorage >=0.4.7
+    - pylodentitymanager >=0.17.0
+    - pylodstorage >=0.17.5
     - python >={{ python_min }}
     - scikit-learn
     - sphinx_rtd_theme
