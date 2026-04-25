@@ -1,5 +1,5 @@
 {% set name = "geograpy3" %}
-{% set version = "0.2.7" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/geograpy3-{{ version }}.tar.gz
-  sha256: 9fed9fd8e1cf3757d5d696cdf2670241e61dc03731b4de7c2c053b98b0c5954c
+  sha256: f199f5965451c7ce3fc61dd58daf4623d2a695cbcc36c594b01991096a8c373d
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
@@ -19,15 +19,17 @@ requirements:
     - pip
     - python {{ python_min }}
     - setuptools
+    - hatchling
   run:
     - geopy
     - jellyfish
-    - newspaper3k
+    - newspaper4k
     - nltk
     - numpy
     - osmpythontools
     - pandas
-    - pylodstorage >=0.4.7
+    - pylodentitymanager >=0.17.0
+    - pylodstorage >=0.17.5
     - python >={{ python_min }}
     - scikit-learn
     - sphinx_rtd_theme
